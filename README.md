@@ -7,25 +7,34 @@ Managing Windows services is an essential aspect of system administration, ensur
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-   - [Installation](#installation)
-   - [Setup](#setup)
-3. [Functions and Usage](#functions-and-usage)
-   - [Start a Service](#start-a-service)
-   - [Stop a Service](#stop-a-service)
-   - [Check if a Service is Running](#check-if-a-service-is-running)
-   - [Change Service Startup Type](#change-service-startup-type)
-   - [Delete a Service](#delete-a-service)
-   - [Retrieve Service Configuration](#retrieve-service-configuration)
-4. [Examples](#examples)
-5. [Conclusion](#conclusion)
-6. [Contributing](#contributing)
-7. [License](#license)
+1. [Introduction]
+2. [Getting Started]
+   - [Installation]
+   - [Setup]
+3. [Functions and Usage]
+   - [Start a Service]
+   - [Stop a Service]
+   - [Check if a Service is Running]
+   - [Change Service Startup Type]
+   - [Delete a Service]
+   - [Retrieve Service Configuration]
+4. [Examples]
+5. [Conclusion]
+6. [Contributing]
+7. [License]
 
 ## Getting Started
 
 ### Installation
 
 First, install the `pywin32` library using pip:
+
 pip install pywin32
+
+### Setup
+
+After installing `pywin32`, you may need to run the post-install script to ensure all components are correctly set up:
+
+python -m pip install pywin32
+   
+python -m pywin32_postinstall
