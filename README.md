@@ -38,3 +38,11 @@ After installing `pywin32`, you may need to run the post-install script to ensur
 python -m pip install pywin32
    
 python -m pywin32_postinstall
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, improvements, or additional features you'd like to see, please open an issue or submit a pull request. Your feedback and contributions are greatly appreciated.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
